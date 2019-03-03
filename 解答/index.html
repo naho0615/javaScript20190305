@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>電卓</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <div class="wrapper">
+        <table>
+            <tr>
+                <td class="td_header" colspan="4"></td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <input id="result" type="text" value="0">
+                </td>
+                <td>
+                    <input class="btn" type="button" value="Ｃ" onclick="clickClear()">
+                </td>
+            </tr>
+            <tr>
+                <td><input class="btn" type="button" value=" ７ " onclick="clickNum(7)"></td>
+                <td><input class="btn" type="button" value=" ８ " onclick="clickNum(8)"></td>
+                <td><input class="btn" type="button" value=" ９ " onclick="clickNum(9)"></td>
+                <td><input class="btn" type="button" value="÷" onclick="clickCalc('/')"></td>
+            </tr>
+            <tr>
+                <td><input class="btn" type="button" value=" ４ " onclick="clickNum(4)"></td>
+                <td><input class="btn" type="button" value=" ５ " onclick="clickNum(5)"></td>
+                <td><input class="btn" type="button" value=" ６ " onclick="clickNum(6)"></td>
+                <td><input class="btn" type="button" value="×" onclick="clickCalc('*')"></td>
+            </tr>
+            <tr>
+                <td><input class="btn" type="button" value=" １ " onclick="clickNum(1)"></td>
+                <td><input class="btn" type="button" value=" ２ " onclick="clickNum(2)"></td>
+                <td><input class="btn" type="button" value=" ３ " onclick="clickNum(3)"></td>
+                <td><input class="btn" type="button" value="－" onclick="clickCalc('-')"></td>
+            </tr>
+            <tr>
+                <td><input class="btn" type="button" value=" ０ " onclick="clickNum(0)"></td>
+                <td><input class="btn" type="button" value=" ・ " onclick="clickNum('.')"></td>
+                <td><input class="btn" type="button" value=" ＋ " onclick="clickCalc('+')"></td>
+                <td><input class="btn" type="button" value="＝" onclick="clickCalc('=')"></td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- JavaScriptのファイルを読み込む -->
+    <script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>
+
+
+
+
+
+
