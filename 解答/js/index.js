@@ -43,7 +43,7 @@ function clickCalc(input){
         strKeepNum = "";
 
         // 計算した結果を画面に表示
-        document.getElementById("").value = total;
+        document.getElementById("result").value = total;
     }
 
     if (input == '=') {
